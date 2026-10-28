@@ -66,11 +66,11 @@ Aujourd'hui, l'outil couvre 30 laboratoires. La même méthode pourrait s'étend
 | Fichier | Rôle |
 |---|---|
 | `index.html` | La page : mise en forme et interactions, sans bibliothèque externe. Elle lit ses données au chargement. |
-| `data/comptes.json` | Les 30 laboratoires, les 6 références et le contexte du marché. Chaque critère porte ses points, sa preuve, sa source et sa date. |
-| `data/carte.json` | Le tracé de la France et de la Belgique, généré depuis les données libres world-atlas. |
-| `scripts/carte.py` | Génère `data/carte.json`. |
+| `comptes.json` | Les 30 laboratoires, les 6 références et le contexte du marché. Chaque critère porte ses points, sa preuve, sa source et sa date. |
+| `carte.json` | Le tracé de la France et de la Belgique, généré depuis les données libres world-atlas. |
+| `carte.py` | Génère `carte.json`. |
 
-**Mettre à jour le radar** : modifier `data/comptes.json` (ajouter un laboratoire, corriger une source). La page relit le fichier à chaque ouverture et recalcule toute seule les notes à partir des points de chaque critère.
+**Mettre à jour le radar** : modifier `comptes.json` (ajouter un laboratoire, corriger une source). La page relit le fichier à chaque ouverture et recalcule toute seule les notes à partir des points de chaque critère.
 
 ## Limites connues
 

@@ -579,8 +579,8 @@ function start(DATA, MAP) {
   render();
 }
 Promise.all([
-  fetch("data/comptes.json").then(function (r) { return r.json(); }),
-  fetch("data/carte.json").then(function (r) { return r.json(); })
+  fetch("comptes.json").then(function (r) { return r.json(); }),
+  fetch("carte.json").then(function (r) { return r.json(); })
 ]).then(function (d) { start(d[0], d[1]); });
 })();
 </script>
