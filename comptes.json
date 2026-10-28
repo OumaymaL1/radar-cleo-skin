@@ -1,0 +1,1440 @@
+{
+  "meta": {
+    "produit": "Cleo Skin",
+    "perimetre": "France et Belgique",
+    "date_collecte": "2026-10-23",
+    "grille": {
+      "numerique": {
+        "label": "Passé à l'ordinateur",
+        "max": 25,
+        "regle": "25 = diagnostic sur écran en routine ; 12 = en cours, partiel ou recherche ; 0 = non trouvé"
+      },
+      "peau": {
+        "label": "Activité peau",
+        "max": 25,
+        "regle": "25 = centre expert cancers cutanés ou unité de dermatopathologie sourcée ; 0 = non trouvé"
+      },
+      "logiciel": {
+        "label": "Logiciel compatible",
+        "max": 20,
+        "regle": "20 = utilise une plateforme partenaire citée par Primaa (Sectra, Proscia, PathAI, PathPresenter, Gestalt, Lumea) ; 0 = non trouvé"
+      },
+      "signal": {
+        "label": "Nouvelle récente",
+        "max": 15,
+        "regle": "15 = annonce datée de moins de 12 mois (après le 23/10/2025) ; 0 = non trouvé"
+      },
+      "proximite": {
+        "label": "Proche d'un client Primaa",
+        "max": 15,
+        "regle": "15 = même groupe, même réseau ou même région qu'une référence Primaa ; 0 = non trouvé"
+      }
+    },
+    "contexte": [
+      {
+        "texte": "UniHA (achats groupés des hôpitaux publics) prévoit un nouvel appel d'offres scanners de lames en octobre 2026.",
+        "source": "https://espace-acheteur.resah.fr/scanners-de-lames",
+        "date": "2026"
+      },
+      {
+        "texte": "Agilent rachète Proscia (jusqu'à 270 M$), plateforme partenaire de Primaa en peau.",
+        "source": "https://hlth.com/insights/news/agilent-technologies-to-acquire-proscia-for-up-to-270-million-to-expand-digital-pathology-capabilities",
+        "date": "2026-10"
+      },
+      {
+        "texte": "Roche rachète PathAI, autre plateforme partenaire de Primaa.",
+        "source": "https://www.signifyresearch.net/insights/digital-pathology-news-round-up-may-2026/",
+        "date": "2026-05"
+      },
+      {
+        "texte": "En France en 2022, 42 % des structures de pathologie avaient un scanner, mais seulement 5 % faisaient du diagnostic numérique en routine.",
+        "source": "https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2025/2025ULILM314.pdf",
+        "date": "2025"
+      }
+    ]
+  },
+  "references": [
+    {
+      "nom": "AP-HP",
+      "ville": "Paris",
+      "pays": "France",
+      "region": "Île-de-France",
+      "type": "CHU",
+      "statut": "Utilise Cleo (cité par Primaa)",
+      "source": "https://tech.eu/2025/10/29/primaa-raises-eur7m-to-accelerate-product-growth-and-international-expansion/",
+      "lat": 48.84,
+      "lon": 2.36
+    },
+    {
+      "nom": "Institut Curie",
+      "ville": "Paris",
+      "pays": "France",
+      "region": "Île-de-France",
+      "type": "Centre anticancer",
+      "statut": "Utilise Cleo (cité par Primaa), équipé Sectra depuis 2021",
+      "source": "https://www.itnonline.com/content/prestigious-french-cancer-center-institut-curie-digitizes-pathology-solution-sectra",
+      "lat": 48.84,
+      "lon": 2.34
+    },
+    {
+      "nom": "Hôpital Paris Saint-Joseph",
+      "ville": "Paris",
+      "pays": "France",
+      "region": "Île-de-France",
+      "type": "Hôpital privé (ESPIC)",
+      "statut": "Cleo Breast déployé (oct. 2025)",
+      "source": "https://primaalab.com/the-latest-news-about-ai-for-pathology/",
+      "lat": 48.83,
+      "lon": 2.31
+    },
+    {
+      "nom": "Medipath",
+      "ville": "Réseau national",
+      "pays": "France",
+      "region": "Plusieurs régions",
+      "type": "Groupe privé",
+      "statut": "Liste Primaa comme son outil IA pour la peau",
+      "source": "https://www.medipath.fr/innovations-ia"
+    },
+    {
+      "nom": "ZAS",
+      "ville": "Anvers",
+      "pays": "Belgique",
+      "region": "Flandre",
+      "type": "Réseau hospitalier",
+      "statut": "Cleo Skin déployé (sept. 2025)",
+      "source": "https://primaalab.com/the-latest-news-about-ai-for-pathology/",
+      "lat": 51.22,
+      "lon": 4.42
+    },
+    {
+      "nom": "CHU de Liège",
+      "ville": "Liège",
+      "pays": "Belgique",
+      "region": "Wallonie",
+      "type": "CHU",
+      "statut": "Déploiement annoncé en 2025, non reconfirmé depuis",
+      "source": "https://tech.eu/2025/10/29/primaa-raises-eur7m-to-accelerate-product-growth-and-international-expansion/",
+      "lat": 50.57,
+      "lon": 5.57
+    }
+  ],
+  "comptes": [
+    {
+      "id": "unilabs-fr",
+      "nom": "Unilabs France",
+      "ville": "Réseau national",
+      "pays": "France",
+      "region": "Plusieurs régions",
+      "type": "Groupe privé",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Se présente comme leader de la pathologie digitale en Europe ; 9 millions de lames par an dans le réseau.",
+          "source": "https://pathologie.unilabs.fr/la-pathologie-digitale",
+          "date": "2026"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Déploie la plateforme Proscia Concentriq, avec laquelle Primaa a un partenariat peau depuis oct. 2025.",
+          "source": "https://www.globenewswire.com/news-release/2026/09/14/3360694/0/fr/unilabs-acc%C3%A9l%C3%A8re-la-transformation-num%C3%A9rique-de-la-pathologie-europ%C3%A9enne-avec-proscia-pour-fa%C3%A7onner-l-avenir-de-la-m%C3%A9decine-de-pr%C3%A9cision.html",
+          "date": "2026-09-14"
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Annonce le passage à Proscia à l'échelle européenne.",
+          "source": "https://www.globenewswire.com/news-release/2026/09/14/3360694/0/fr/unilabs-acc%C3%A9l%C3%A8re-la-transformation-num%C3%A9rique-de-la-pathologie-europ%C3%A9enne-avec-proscia-pour-fa%C3%A7onner-l-avenir-de-la-m%C3%A9decine-de-pr%C3%A9cision.html",
+          "date": "2026-09-14"
+        },
+        "proximite": {
+          "points": 15,
+          "preuve": "Logo Unilabs affiché sur le site de Primaa : relation existante, nature à confirmer.",
+          "source": "https://primaalab.com",
+          "date": "2026"
+        }
+      },
+      "pourquoi_maintenant": "Unilabs vient de choisir Proscia, où Cleo Skin est déjà intégré : l'activation peut se faire sans nouveau projet informatique.",
+      "angle": "Proposer d'activer Cleo Skin dans Concentriq sur un site pilote français, en s'appuyant sur la relation déjà affichée."
+    },
+    {
+      "id": "chu-bordeaux",
+      "nom": "CHU de Bordeaux",
+      "ville": "Bordeaux",
+      "pays": "France",
+      "region": "Nouvelle-Aquitaine",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Numérisation régionale eNovAPath avec Poitiers et Limoges (environ 100 000 cas par an à trois).",
+          "source": "https://medical.sectra.com/news-press-releases/news-item/9B039A27643D8195/",
+          "date": "2022-10"
+        },
+        "peau": {
+          "points": 25,
+          "preuve": "Centre expert régional du réseau CARADERM (cancers cutanés rares). Liste de 2015.",
+          "source": "https://www.cancer.fr/Media/files/caraderm-cer-et-responsables",
+          "date": "2015"
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://medical.sectra.com/news-press-releases/news-item/9B039A27643D8195/",
+          "date": "2022-10"
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Équipé depuis 2022 et expert en cancers de la peau : le terrain est prêt, il manque l'outil d'IA.",
+      "angle": "Passer par l'équipe dermatologie (centre expert) et proposer une évaluation sur les cas de peau difficiles.",
+      "lat": 44.83,
+      "lon": -0.61
+    },
+    {
+      "id": "ipc",
+      "nom": "Institut Paoli-Calmettes",
+      "ville": "Marseille",
+      "pays": "France",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "type": "Centre anticancer",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Module de pathologie numérique Sectra en service.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Mise en service annoncée en septembre 2026, premier des 8 hôpitaux de la région.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Vient de passer au numérique : c'est le moment où un labo se demande quels outils d'IA brancher.",
+      "angle": "Approche régionale : un seul échange peut couvrir les 4 hôpitaux PACA déjà passés sur Sectra.",
+      "lat": 43.29,
+      "lon": 5.4
+    },
+    {
+      "id": "aphm",
+      "nom": "AP-HM",
+      "ville": "Marseille",
+      "pays": "France",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Module de pathologie numérique Sectra en service.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Mise en service annoncée en septembre 2026.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Vient de passer au numérique, avec une solution partagée par toute la région.",
+      "angle": "Gros CHU : vérifier le volume de dermatopathologie, puis proposer Cleo Skin comme brique commune à la région.",
+      "lat": 43.33,
+      "lon": 5.36
+    },
+    {
+      "id": "ch-aix-pertuis",
+      "nom": "Centre hospitalier d'Aix-Pertuis",
+      "ville": "Aix-en-Provence",
+      "pays": "France",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "type": "Hôpital public",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Module de pathologie numérique Sectra en service.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Mise en service annoncée en septembre 2026.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Vient de passer au numérique, avec une solution partagée par toute la région.",
+      "angle": "Hôpital de taille moyenne : l'argument du gain de temps sur la routine peau peut peser plus qu'en CHU.",
+      "lat": 43.53,
+      "lon": 5.45
+    },
+    {
+      "id": "lacassagne",
+      "nom": "Centre Antoine Lacassagne",
+      "ville": "Nice",
+      "pays": "France",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "type": "Centre anticancer",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Deux scanners haut débit (250 à 300 lames par jour), visualisation sur Sectra.",
+          "source": "https://www.centreantoinelacassagne.org/innovation-laboratoire-danatomie-et-cytologie-pathologiques/",
+          "date": "2026"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://www.centreantoinelacassagne.org/innovation-laboratoire-danatomie-et-cytologie-pathologiques/",
+          "date": "2026"
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Mise en service régionale annoncée en septembre 2026.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Équipement récent et à fort débit : le labo cherche à rentabiliser ses scanners.",
+      "angle": "Centre anticancer : ouvrir la conversation sur Cleo Skin, puis élargir vers Cleo Breast.",
+      "lat": 43.7,
+      "lon": 7.24
+    },
+    {
+      "id": "uz-leuven",
+      "nom": "UZ Leuven",
+      "ville": "Louvain",
+      "pays": "Belgique",
+      "region": "Flandre",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Passage au diagnostic primaire entièrement numérique, contrat de 10 ans.",
+          "source": "https://medical.sectra.com/news-press-releases/news-item/8D353F04D7A88559/",
+          "date": "2024-10"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa. L'hôpital dit vouloir garder le libre choix de ses logiciels.",
+          "source": "https://medical.sectra.com/news-press-releases/news-item/8D353F04D7A88559/",
+          "date": "2024-10"
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 15,
+          "preuve": "Même région (Flandre) que ZAS, où Cleo Skin est déployé.",
+          "source": "https://primaalab.com/the-latest-news-about-ai-for-pathology/",
+          "date": "2025-09"
+        }
+      },
+      "pourquoi_maintenant": "Plus grand hôpital universitaire belge, ouvert aux logiciels tiers, avec une référence Cleo Skin à une heure de route.",
+      "angle": "Proposer une visite ou un échange avec l'équipe de ZAS sur leur retour d'expérience.",
+      "lat": 50.88,
+      "lon": 4.67
+    },
+    {
+      "id": "chr-mouscron",
+      "nom": "CHR de Mouscron",
+      "ville": "Mouscron",
+      "pays": "Belgique",
+      "region": "Wallonie",
+      "type": "Hôpital public",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Solution numérique commune avec l'hôpital de Roubaix, de l'autre côté de la frontière.",
+          "source": "https://medical.sectra.com/news-press-releases/?item=7299BEA3F61B89DB",
+          "date": "2023-01"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://medical.sectra.com/news-press-releases/?item=7299BEA3F61B89DB",
+          "date": "2023-01"
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 15,
+          "preuve": "Même région (Wallonie) que le CHU de Liège, déploiement annoncé en 2025.",
+          "source": "https://tech.eu/2025/10/29/primaa-raises-eur7m-to-accelerate-product-growth-and-international-expansion/",
+          "date": "2025-10"
+        }
+      },
+      "pourquoi_maintenant": "Une seule installation sert deux hôpitaux dans deux pays : un contrat ouvre la France et la Belgique d'un coup.",
+      "angle": "Proposer l'offre au duo Roubaix + Mouscron en même temps.",
+      "lat": 50.74,
+      "lon": 3.21
+    },
+    {
+      "id": "chu-nantes",
+      "nom": "CHU de Nantes",
+      "ville": "Nantes",
+      "pays": "France",
+      "region": "Pays de la Loire",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 12,
+          "preuve": "Projet de pathologie numérique et IA en recherche de financement pour 2026 ; base d'images régionale avec Saint-Nazaire.",
+          "source": "https://www.soutenir-naovie.fr/projet/pathologie-numerique-intelligence-artificielle/",
+          "date": "2026"
+        },
+        "peau": {
+          "points": 25,
+          "preuve": "Centre expert régional du réseau CARADERM (cancers cutanés rares). Liste de 2015.",
+          "source": "https://www.cancer.fr/Media/files/caraderm-cer-et-responsables",
+          "date": "2015"
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Appel au mécénat pour financer la pathologie numérique et l'IA en 2026.",
+          "source": "https://www.soutenir-naovie.fr/projet/pathologie-numerique-intelligence-artificielle/",
+          "date": "2026"
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Le projet est en train d'être financé : c'est le moment d'influencer le choix des outils.",
+      "angle": "Se positionner tôt comme brique IA peau du projet, avant que le cahier des charges soit figé.",
+      "lat": 47.21,
+      "lon": -1.55
+    },
+    {
+      "id": "chu-lille",
+      "nom": "CHU de Lille",
+      "ville": "Lille",
+      "pays": "France",
+      "region": "Hauts-de-France",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "5 scanners, logiciels d'IA, plus de 1 000 lames par jour. Projet inauguré en septembre 2025.",
+          "source": "https://www.hautsdefrance.fr/le-chu-de-lille-inaugure-son-projet-de-pathologie-numerique/",
+          "date": "2025-09"
+        },
+        "peau": {
+          "points": 25,
+          "preuve": "Coordinateur national CARADERM et centre expert européen (EURACAN) pour les cancers cutanés rares.",
+          "source": "https://chu-lille.fr/le-chu-de-lille-integre-euracan",
+          "date": "2022-01"
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Inauguration juste au-delà de 12 mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Référence nationale pour les cancers de la peau rares et déjà équipé : un client vitrine potentiel.",
+      "angle": "Viser un partenariat d'évaluation scientifique plutôt qu'une vente directe. Vérifier d'abord le logiciel utilisé.",
+      "lat": 50.61,
+      "lon": 3.03
+    },
+    {
+      "id": "chu-nice",
+      "nom": "CHU de Nice",
+      "ville": "Nice",
+      "pays": "France",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 12,
+          "preuve": "Déploiement en cours (deuxième phase régionale, fin prévue en 2027).",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Deuxième phase démarrée, annoncée en septembre 2026.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Le déploiement est en cours : on peut prévoir l'IA dès la mise en service.",
+      "angle": "Proposer d'inclure Cleo Skin dans le paramétrage initial, pour éviter un deuxième projet plus tard.",
+      "lat": 43.73,
+      "lon": 7.29
+    },
+    {
+      "id": "ch-toulon",
+      "nom": "Centre hospitalier de Toulon",
+      "ville": "Toulon",
+      "pays": "France",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "type": "Hôpital public",
+      "criteres": {
+        "numerique": {
+          "points": 12,
+          "preuve": "Déploiement en cours (deuxième phase régionale, fin prévue en 2027).",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Deuxième phase démarrée, annoncée en septembre 2026.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Le déploiement est en cours : on peut prévoir l'IA dès la mise en service.",
+      "angle": "Traiter avec Nice et Avignon dans la même démarche régionale.",
+      "lat": 43.13,
+      "lon": 5.95
+    },
+    {
+      "id": "ch-avignon",
+      "nom": "Centre hospitalier d'Avignon",
+      "ville": "Avignon",
+      "pays": "France",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "type": "Hôpital public",
+      "criteres": {
+        "numerique": {
+          "points": 12,
+          "preuve": "Déploiement en cours (deuxième phase régionale, fin prévue en 2027).",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Deuxième phase démarrée, annoncée en septembre 2026.",
+          "source": "https://www.inderes.se/releases/french-region-goes-live-with-digital-pathology-from-sectra-to-speed-up-cancer-diagnostics",
+          "date": "2026-09-17"
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Le déploiement est en cours : on peut prévoir l'IA dès la mise en service.",
+      "angle": "Traiter avec Nice et Toulon dans la même démarche régionale.",
+      "lat": 43.94,
+      "lon": 4.81
+    },
+    {
+      "id": "chu-poitiers",
+      "nom": "CHU de Poitiers",
+      "ville": "Poitiers",
+      "pays": "France",
+      "region": "Nouvelle-Aquitaine",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Membre du projet régional eNovAPath.",
+          "source": "https://medical.sectra.com/news-press-releases/news-item/9B039A27643D8195/",
+          "date": "2022-10"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://medical.sectra.com/news-press-releases/news-item/9B039A27643D8195/",
+          "date": "2022-10"
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Équipé et relié à Bordeaux : si Bordeaux adopte Cleo Skin, Poitiers peut suivre.",
+      "angle": "À traiter dans la foulée de Bordeaux, comme extension régionale.",
+      "lat": 46.58,
+      "lon": 0.38
+    },
+    {
+      "id": "chu-limoges",
+      "nom": "CHU de Limoges",
+      "ville": "Limoges",
+      "pays": "France",
+      "region": "Nouvelle-Aquitaine",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Membre du projet régional eNovAPath.",
+          "source": "https://medical.sectra.com/news-press-releases/news-item/9B039A27643D8195/",
+          "date": "2022-10"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://medical.sectra.com/news-press-releases/news-item/9B039A27643D8195/",
+          "date": "2022-10"
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Équipé et relié à Bordeaux : si Bordeaux adopte Cleo Skin, Limoges peut suivre.",
+      "angle": "À traiter dans la foulée de Bordeaux, comme extension régionale.",
+      "lat": 45.82,
+      "lon": 1.24
+    },
+    {
+      "id": "chu-montpellier",
+      "nom": "CHU de Montpellier",
+      "ville": "Montpellier",
+      "pays": "France",
+      "region": "Occitanie",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Contrat de pathologie numérique signé avec Sectra, partagé avec Nîmes.",
+          "source": "https://radiologybusiness.com/two-university-hospitals-france-digitize-pathology-sectra-enable-efficient-sharing-resources-and",
+          "date": "2023-01"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://radiologybusiness.com/two-university-hospitals-france-digitize-pathology-sectra-enable-efficient-sharing-resources-and",
+          "date": "2023-01"
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Tête d'un réseau régional de trois hôpitaux sur la même solution.",
+      "angle": "Approche régionale Occitanie (Montpellier, Nîmes, Béziers).",
+      "lat": 43.63,
+      "lon": 3.85
+    },
+    {
+      "id": "chu-nimes",
+      "nom": "CHU de Nîmes",
+      "ville": "Nîmes",
+      "pays": "France",
+      "region": "Occitanie",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Contrat de pathologie numérique signé avec Sectra, partagé avec Montpellier.",
+          "source": "https://radiologybusiness.com/two-university-hospitals-france-digitize-pathology-sectra-enable-efficient-sharing-resources-and",
+          "date": "2023-01"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://radiologybusiness.com/two-university-hospitals-france-digitize-pathology-sectra-enable-efficient-sharing-resources-and",
+          "date": "2023-01"
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Équipé et intégré à un réseau régional.",
+      "angle": "Approche régionale Occitanie (Montpellier, Nîmes, Béziers).",
+      "lat": 43.82,
+      "lon": 4.38
+    },
+    {
+      "id": "ch-beziers",
+      "nom": "Centre hospitalier de Béziers",
+      "ville": "Béziers",
+      "pays": "France",
+      "region": "Occitanie",
+      "type": "Hôpital public",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "A rejoint la solution régionale de pathologie numérique.",
+          "source": "https://news.cision.com/fr/sectra/r/le-ch-de-beziers-rejoint-la-solution-regionale-de-pathologie-numerique-sectra-afin-d-ameliorer-la-co,c4069025",
+          "date": "2024-11"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://news.cision.com/fr/sectra/r/le-ch-de-beziers-rejoint-la-solution-regionale-de-pathologie-numerique-sectra-afin-d-ameliorer-la-co,c4069025",
+          "date": "2024-11"
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Hôpital de taille moyenne déjà connecté à Montpellier et Nîmes.",
+      "angle": "Approche régionale Occitanie (Montpellier, Nîmes, Béziers).",
+      "lat": 43.34,
+      "lon": 3.22
+    },
+    {
+      "id": "ch-roubaix",
+      "nom": "Centre hospitalier de Roubaix",
+      "ville": "Roubaix",
+      "pays": "France",
+      "region": "Hauts-de-France",
+      "type": "Hôpital public",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Solution numérique commune avec le CHR de Mouscron (Belgique).",
+          "source": "https://medical.sectra.com/news-press-releases/?item=7299BEA3F61B89DB",
+          "date": "2023-01"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 20,
+          "preuve": "Sectra, partenaire cité par Primaa.",
+          "source": "https://medical.sectra.com/news-press-releases/?item=7299BEA3F61B89DB",
+          "date": "2023-01"
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Une seule installation sert deux hôpitaux dans deux pays.",
+      "angle": "Proposer l'offre au duo Roubaix + Mouscron en même temps.",
+      "lat": 50.69,
+      "lon": 3.18
+    },
+    {
+      "id": "gustave-roussy",
+      "nom": "Gustave Roussy",
+      "ville": "Villejuif",
+      "pays": "France",
+      "region": "Île-de-France",
+      "type": "Centre anticancer",
+      "criteres": {
+        "numerique": {
+          "points": 12,
+          "preuve": "Pathologie numérique et IA en recherche (consortium PortrAIt, 15 outils d'IA prévus). Usage en routine non confirmé.",
+          "source": "https://www.gustaveroussy.fr/fr/portrait-lintelligence-artificielle-diagnostique-et-therapeutique-au-service-du-cancer",
+          "date": "2026"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé dans les sources consultées.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Dossier de presse sur l'IA en oncologie.",
+          "source": "https://www.gustaveroussy.fr/sites/default/files/dp-ia-patients-200126.pdf",
+          "date": "2026-01-20"
+        },
+        "proximite": {
+          "points": 15,
+          "preuve": "Même région (Île-de-France) que l'AP-HP, l'Institut Curie et Saint-Joseph.",
+          "source": "https://tech.eu/2025/10/29/primaa-raises-eur7m-to-accelerate-product-growth-and-international-expansion/",
+          "date": "2025-10"
+        }
+      },
+      "pourquoi_maintenant": "Très actif sur l'IA, mais via un consortium où Owkin est déjà présent : terrain disputé.",
+      "angle": "Approche scientifique (publication, étude) plutôt que commerciale.",
+      "lat": 48.79,
+      "lon": 2.35
+    },
+    {
+      "id": "angers-le-mans",
+      "nom": "CHU d'Angers et CH du Mans",
+      "ville": "Angers, Le Mans",
+      "pays": "France",
+      "region": "Pays de la Loire",
+      "type": "CHU + hôpital public",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Plateforme commune avec 6 scanners. Au Mans, les pathologistes n'utilisent plus le microscope.",
+          "source": "https://www.ch-lemans.fr/ch-le-mans/actualites-et-evenements/innovation-un-virage-numerique-au-ch-le-mans-et-au-chu-dangers/",
+          "date": "2026-03"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Logiciel non précisé dans les sources.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "Plateforme en service depuis mars 2026.",
+          "source": "https://application-sante-numerique.fr/blog/chu-angers-ch-mans-anatomocytopathologie-numerique/",
+          "date": "2026-03"
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Passés au tout numérique il y a quelques mois : prochaine étape logique, l'IA.",
+      "angle": "Identifier le logiciel utilisé : s'il est compatible, le score monte à 60.",
+      "lat": 47.48,
+      "lon": -0.55
+    },
+    {
+      "id": "ch-saint-nazaire",
+      "nom": "Centre hospitalier de Saint-Nazaire",
+      "ville": "Saint-Nazaire",
+      "pays": "France",
+      "region": "Pays de la Loire",
+      "type": "Hôpital public",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Passe à la pathologie numérique, base d'images régionale avec le CHU de Nantes et le CHD Vendée.",
+          "source": "https://dsih.fr/articles/6420/le-ch-de-saint-nazaire-passe-a-la-pathologie-numerique",
+          "date": "2026-10-06"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Logiciel non précisé dans les sources.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 15,
+          "preuve": "L'hôpital présente cette étape comme une préparation aux outils d'IA, pas encore intégrés.",
+          "source": "https://dsih.fr/articles/6420/le-ch-de-saint-nazaire-passe-a-la-pathologie-numerique",
+          "date": "2026-10-06"
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Annonce publique il y a deux semaines : l'hôpital dit lui-même préparer l'arrivée de l'IA.",
+      "angle": "Contact rapide, en reprenant leurs propres mots sur la préparation à l'IA.",
+      "lat": 47.28,
+      "lon": -2.21
+    },
+    {
+      "id": "bordet",
+      "nom": "Institut Jules Bordet",
+      "ville": "Bruxelles",
+      "pays": "Belgique",
+      "region": "Bruxelles",
+      "type": "Centre anticancer",
+      "criteres": {
+        "numerique": {
+          "points": 12,
+          "preuve": "Scanner Hamamatsu, lames virtuelles pour les réunions et le second avis. Diagnostic en routine non confirmé.",
+          "source": "https://www.bordet.be/en/digital-pathology",
+          "date": "2022-10"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 15,
+          "preuve": "Même groupe hospitalier (H.U.B) que l'Hôpital Erasme, partenaire de Primaa sur la prostate.",
+          "source": "https://tech.eu/2025/10/29/primaa-raises-eur7m-to-accelerate-product-growth-and-international-expansion/",
+          "date": "2025-10"
+        }
+      },
+      "pourquoi_maintenant": "Une porte d'entrée existe déjà via Erasme, dans le même groupe.",
+      "angle": "Demander à l'équipe d'Erasme une introduction auprès de la pathologie de Bordet.",
+      "lat": 50.84,
+      "lon": 4.36
+    },
+    {
+      "id": "erasme",
+      "nom": "Hôpital Erasme (H.U.B)",
+      "ville": "Bruxelles",
+      "pays": "Belgique",
+      "region": "Bruxelles",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 12,
+          "preuve": "Plateforme SecundOS pour le second avis numérique. Source ancienne (2018).",
+          "source": "https://healthcare-in-europe.com/en/news/belgium-sets-up-a-dx-pathology-platform.html",
+          "date": "2018-10"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 15,
+          "preuve": "Déjà partenaire de Primaa sur la prostate.",
+          "source": "https://tech.eu/2025/10/29/primaa-raises-eur7m-to-accelerate-product-growth-and-international-expansion/",
+          "date": "2025-10"
+        }
+      },
+      "pourquoi_maintenant": "Relation déjà active sur la prostate : la peau peut s'ajouter sans repartir de zéro.",
+      "angle": "Proposer Cleo Skin en extension du partenariat existant.",
+      "lat": 50.81,
+      "lon": 4.26
+    },
+    {
+      "id": "chu-rouen",
+      "nom": "CHU de Rouen",
+      "ville": "Rouen",
+      "pays": "France",
+      "region": "Normandie",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Toutes les lames de la plateforme territoriale sont numérisées ; scanner supplémentaire prévu au Havre.",
+          "source": "https://www.chu-rouen.fr/la-plateforme-territoriale-danatomie-et-cytologie-pathologiques-passe-a-la-numerisation/",
+          "date": null
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Date de l'annonce non trouvée.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Plateforme territoriale entièrement numérique, mais peu d'infos publiques.",
+      "angle": "Premier appel pour qualifier : logiciel utilisé et volume de peau.",
+      "lat": 49.45,
+      "lon": 1.11
+    },
+    {
+      "id": "leon-berard",
+      "nom": "Centre Léon Bérard",
+      "ville": "Lyon",
+      "pays": "France",
+      "region": "Auvergne-Rhône-Alpes",
+      "type": "Centre anticancer",
+      "criteres": {
+        "numerique": {
+          "points": 25,
+          "preuve": "Les services d'anatomie pathologique ont adopté une solution numérique avec IA. Page ancienne, date non trouvée.",
+          "source": "https://www.centreleonberard.fr/institution/actualites/anapath-le-centre-leon-berard-se-digitalise",
+          "date": null
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Équipé, membre du consortium PortrAIt : plutôt orienté recherche.",
+      "angle": "Qualifier le logiciel et le volume de peau avant toute approche.",
+      "lat": 45.74,
+      "lon": 4.88
+    },
+    {
+      "id": "hcl",
+      "nom": "Hospices Civils de Lyon",
+      "ville": "Lyon",
+      "pays": "France",
+      "region": "Auvergne-Rhône-Alpes",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 0,
+          "preuve": "Non trouvé pour le diagnostic en routine.",
+          "source": null,
+          "date": null
+        },
+        "peau": {
+          "points": 25,
+          "preuve": "Lyon-Sud, centre expert régional du réseau CARADERM. Liste de 2015.",
+          "source": "https://www.cancer.fr/Media/files/caraderm-cer-et-responsables",
+          "date": "2015"
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Forte expertise peau, statut numérique inconnu : à surveiller.",
+      "angle": "Surveiller les appels d'offres de numérisation des HCL.",
+      "lat": 45.76,
+      "lon": 4.83
+    },
+    {
+      "id": "chu-strasbourg",
+      "nom": "CHU de Strasbourg",
+      "ville": "Strasbourg",
+      "pays": "France",
+      "region": "Grand Est",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "peau": {
+          "points": 25,
+          "preuve": "Centre expert régional du réseau CARADERM. Liste de 2015.",
+          "source": "https://www.cancer.fr/Media/files/caraderm-cer-et-responsables",
+          "date": "2015"
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Forte expertise peau, statut numérique inconnu : à surveiller.",
+      "angle": "Surveiller les annonces de numérisation.",
+      "lat": 48.58,
+      "lon": 7.75
+    },
+    {
+      "id": "chu-grenoble",
+      "nom": "CHU Grenoble Alpes",
+      "ville": "Grenoble",
+      "pays": "France",
+      "region": "Auvergne-Rhône-Alpes",
+      "type": "CHU",
+      "criteres": {
+        "numerique": {
+          "points": 12,
+          "preuve": "Projet de recherche LOGIAPATH (2023 à 2028) sur des lames de routine numérisées.",
+          "source": "https://www.chu-grenoble.fr/patients-et-accompagnants/la-recherche-au-chuga/projets-de-recherche/developpement-de-logiciels-danalyse-dimages-en-anatomie-pathologique",
+          "date": "2023-09"
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Développe ses propres outils avec un partenaire (Witsee) : peu prioritaire.",
+      "angle": "À surveiller.",
+      "lat": 45.2,
+      "lon": 5.74
+    },
+    {
+      "id": "synlab-fr",
+      "nom": "Synlab France",
+      "ville": "Réseau national",
+      "pays": "France",
+      "region": "Plusieurs régions",
+      "type": "Groupe privé",
+      "criteres": {
+        "numerique": {
+          "points": 12,
+          "preuve": "Mentionne la pathologie digitale sur son site, sans détail.",
+          "source": "https://www.synlab.fr/nous-connaitre/nos-specialites-de-biologie-medicale/anatomo-cyto-pathologie/",
+          "date": null
+        },
+        "peau": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "logiciel": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        },
+        "signal": {
+          "points": 0,
+          "preuve": "Non trouvé sur les 12 derniers mois.",
+          "source": null,
+          "date": null
+        },
+        "proximite": {
+          "points": 0,
+          "preuve": "Non trouvé.",
+          "source": null,
+          "date": null
+        }
+      },
+      "pourquoi_maintenant": "Grand réseau privé, mais peu d'informations publiques sur sa pathologie.",
+      "angle": "Premier appel pour qualifier le volume de peau et l'équipement."
+    }
+  ]
+}
